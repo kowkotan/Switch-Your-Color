@@ -51,12 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\ColorColliderConroll.cs" />
      <Compile Include="Assets\Scripts\ColorSwitchItem.cs" />
      <Compile Include="Assets\Scripts\DestroyGameObject.cs" />
      <Compile Include="Assets\Scripts\DisableGameObject.cs" />
+     <Compile Include="Assets\Scripts\LineObstacleMover.cs" />
+     <Compile Include="Assets\Scripts\ObjectPoolScript.cs" />
      <Compile Include="Assets\Scripts\PlayerControll.cs" />
      <Compile Include="Assets\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Scripts\ScoreChangeItem.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>E:/Switch Your Color/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

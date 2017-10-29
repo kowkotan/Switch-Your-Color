@@ -11,6 +11,7 @@ TagManager:
   - TealCollider
   - Star
   - ColorColliderControll
+  - ColorChangePool
   layers:
   - Default
   - TransparentFX

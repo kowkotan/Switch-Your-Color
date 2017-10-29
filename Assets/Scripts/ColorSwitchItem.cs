@@ -12,10 +12,6 @@ public class ColorSwitchItem : MonoBehaviour {
 		c = GameObject.FindGameObjectWithTag ("ColorColliderControll").GetComponent<ColorColliderConroll> ();
 	}
 
-	void Update () {
-		
-	}
-
 	public void OnTriggerEnter(Collider other){
 		if (other.CompareTag ("Player")) {
 			SwitchColor ();
@@ -25,6 +21,7 @@ public class ColorSwitchItem : MonoBehaviour {
 	public void SwitchColor(){
 		playerC.SwitchColors ();
 		c.ChangeColorColliderState ();
+		c.IncrementObstacleProgression();
 
 		gameObject.SetActive (false);
 	}

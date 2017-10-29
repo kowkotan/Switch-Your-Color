@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 188680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.13, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 479124}
   m_Father: {fileID: 0}
@@ -201,6 +201,6 @@ MonoBehaviour:
   originalColor: {r: 0, g: 0, b: 0, a: 0}
   numOfColors: 4
   upwardForceMode: 1
-  upwardForce: 7
+  upwardForce: 6
   deathParticles: {fileID: 166424, guid: 3c11ce0096c7eb14184855a95e1c563f, type: 2}
   flashObject: {fileID: 109588, guid: f8947df2b5fd2e1448273245d0a005e0, type: 2}
